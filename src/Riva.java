@@ -53,14 +53,14 @@ import java.util.Scanner;
 				}
 			}
 			int somma = 0;
-			System.out.println("L'array stampato ordinatamente con solo i numeri pari è: ");
+			System.out.println("L'array stampato ordinatamente con solo i numeri pari ï¿½: ");
 			for (int m=0; m<array.length; m++)
 			{
 				if (array[m]%2==0)
 				{
 					somma += array[m];
 				}
-				System.out.println(somma);
+				System.out.println(somma);//Colucci: perchÃ¨ stampi una somma, dove ti viene richiesto? 
 			}
 		}
 		public static void swap (int [] arrayTemporaneo, int a, int b)
@@ -68,7 +68,7 @@ import java.util.Scanner;
 			int temp = arrayTemporaneo[a];
 			arrayTemporaneo[a] = arrayTemporaneo[b];
 			arrayTemporaneo[b] = temp;
-		}
+		}// Colucci: un pÃ² confuso ma vicino alla soluzione
 		
 		public static void minimoDiArray()
 		{
@@ -78,7 +78,7 @@ import java.util.Scanner;
 				array[i] = (int) ((Math.random()*11)-5);
 			}
 			
-			System.out.println("L'array è: ");
+			System.out.println("L'array ï¿½: ");
 			for (int i=0; i<array.length; i++)
 			{
 				System.out.print(array[i] + " ");
@@ -94,21 +94,21 @@ import java.util.Scanner;
 					}
 				}
 			}
-			System.out.println("L'array stampato ordinatamente con solo i numeri pari è: ");
+			System.out.println("L'array stampato ordinatamente con solo i numeri pari ï¿½: ");
 			for (int i=0; i<array.length; i++)
 			{
 				System.out.println(array[i]);
 			}
-		}
+		}//Colucci: hai completamente confuso gli esercizi, in questo non dovevi ordinare gli elementi ma individuare il minore e la sua prima occorrenza
 			
 			/*
-			System.out.println("L'array è: ");
+			System.out.println("L'array ï¿½: ");
 			for (int i=0; i<array.length; i++)
 			{
 				System.out.println(array[i]);
 			}
 			
-			System.out.println("Il valore minimo dell'array è: ");
+			System.out.println("Il valore minimo dell'array ï¿½: ");
 			for (int i=0; i<1; i++)
 			{
 				System.out.println(array[0]);
@@ -118,8 +118,8 @@ import java.util.Scanner;
 			//for (int i=0; i<array.length; i++)
 			//{
 				//int posizione=0;
-				//System.out.println("L'array casuale è: " + array[0]);
-				// + " e il suo indice è: " + posizione++
+				//System.out.println("L'array casuale ï¿½: " + array[0]);
+				// + " e il suo indice ï¿½: " + posizione++
 				//posizione++;
 			//}
 		
@@ -140,11 +140,11 @@ import java.util.Scanner;
 					}
 					else
 					{
-						System.out.println("Non hai più tentativi!");
+						System.out.println("Non hai piï¿½ tentativi!");
 					}
 				}
 			}
 		}
-	}
+	}//Colucci: nei tre tentativi dovevi considerare l'ipotesi della parola sbagliata e riprovare!
 
 
